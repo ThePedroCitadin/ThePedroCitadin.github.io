@@ -1,0 +1,37 @@
+
+
+#lista_repetidas{
+    width: 600px;
+    
+    background-color: #E9967A;
+    border:solid;
+    border-color: black;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+#lista_faltantes{
+    width: 600px;
+    
+    background-color: #FF7F50;
+    margin-left: 10px;
+    border:solid;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+
+h3{
+    text-align: center;
+}
+#sessao_listas{
+    position: relative;
+    
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: center;   
+}
+p{
+    font-size: 18px;
+}
