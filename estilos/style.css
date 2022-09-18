@@ -2,8 +2,9 @@
 
 #lista_repetidas{
     width: 600px;
-    
-    background-color: #E9967A;
+    overflow-y: scroll;
+    height: 750px;
+    background-color:rgb(161, 161, 161);
     border:solid;
     border-color: black;
     border-radius: 5px;
@@ -12,8 +13,10 @@
 }
 #lista_faltantes{
     width: 600px;
+    overflow-y: scroll;
     
-    background-color: #FF7F50;
+    height: 750px;
+    background-color: rgb(161, 161, 161);
     margin-left: 10px;
     border:solid;
     border-color: black;
@@ -34,4 +37,7 @@ h3{
 }
 p{
     font-size: 18px;
+}
+#contato{
+    text-align: center;
 }

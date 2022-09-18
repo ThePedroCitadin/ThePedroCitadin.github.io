@@ -402,7 +402,11 @@ const lista_faltantes = ['FWC3',
     'C7',
     'C8'
 ]
+
+
+
 function listar() {
+    
     for (var i = 0; i < lista_repetidas.length; i++) {
         ///lista repetidas
         let listarepetidashtml = document.querySelector("#lista_repetidas")
@@ -423,3 +427,4 @@ function listar() {
         listafaltanteshtml.appendChild(p)
     }
 }
+
